@@ -1,0 +1,240 @@
+{
+// === Wallpaper (shalldie.background) ===
+"background.enabled": true,
+"background.useDefault": false,
+// Editor background (normal coding view)
+"background.editor": {
+  "useFront": false, // keep image behind text for readability
+  "style": {
+    "background-position": "center center",
+    "background-size": "cover",
+    "opacity": 0.16 // 0..1; lower = darker, higher = more visible
+  },
+  // If you want a tiny bit of softening, un-comment the filter:
+  // "styles": [{ "filter": "blur(8px) brightness(0.98) saturate(1.03)" }],
+  "styles": [],
+  "images": [
+    "file:///C:/Users/blank/Desktop/UM.jpg" // use file:/// URI
+  ],
+  "interval": 0,
+  "random": false
+},
+
+// Fullscreen view (when you toggle Full Screen)
+"background.fullscreen": {
+  "images": ["file:///C:/Users/blank/Desktop/UM.jpg"],
+  "opacity": 0.07,
+  "size": "cover",
+  "position": "center",
+  "interval": 0,
+  "random": false
+},
+// === Workbench UI colors ===
+"workbench.colorCustomizations": {
+  // ─── Base Surfaces (pick your 3–4 elevation steps) ───
+  "editor.background":            "#151222", // main code canvas (keep dark for contrast over wallpaper)
+  "sideBar.background":           "#17142A", // files/explorer panel
+  "activityBar.background":       "#322A46", // vertical icon bar
+  "titleBar.activeBackground":    "#392E4E", // window title
+  "statusBar.background":         "#241D47", // bottom strip
+  "panel.background":             "#17142A", // bottom panels (terminal/output)
+  "panel.border":                 "#FFC658", // separators between editor/panels
+  // ─── Default Text / Subtext ───
+  "editor.foreground":            "#F5E7FF", // default code text
+  "sideBar.foreground":           "#F5E7FF", // sidebar labels
+  "activityBar.foreground":       "#FFC658", // Sidebar icons"
+  "activityBar.inactiveForeground": "#F3E3FF",
+  "titleBar.activeForeground":    "#F5E7FF",
+  "titleBar.inactiveForeground":  "#B8A1C9",
+  "titleBar.inactiveBackground":  "#322A46",
+  "statusBar.foreground":         "#F5E7FF",
+  // The little badge (e.g. number of changes)
+  "activityBarBadge.background": "#7289DA",
+  "activityBarBadge.foreground": "#F3E3FF",
+    // ─── Selections / Hovers / Focus ───
+  "editor.selectionBackground":           "#3F375C80", // code selection
+  "editor.selectionHighlightBackground":  "#3F375C55", // same hue, lower alpha
+  "editor.hoverHighlightBackground":      "#5D519322", // when symbol hover is active
+  "list.hoverBackground":                 "#2E2A57",   // explorer item hover
+  "list.inactiveSelectionBackground":     "#322F56",
+  "list.activeSelectionBackground":       "#3F395D",
+  "focusBorder":                          "#5D5193",   // keyboard focus ring
+    // ─── Tabs (active/inactive/hover) ───
+  "tab.activeBackground":         "#5C1646",
+  "tab.activeForeground":         "#F3E3FF",
+  "tab.activeBorderTop":          "#8A7CDA", // a thin top accent
+  "tab.inactiveBackground":       "#151423",
+  "tab.inactiveForeground":       "#F5E7FF",
+  "tab.hoverBackground":          "#90396F",
+    // ─── Line Numbers / Guides / Ruler ───
+  "editorLineNumber.foreground":        "#564A6B",  // inactive nums
+  "editorLineNumber.activeForeground":  "#E7DEF7",  // current line num
+
+  // ─── Buttons / Inputs / Dropdowns ───
+  "button.background":            "#5C6FB1",
+  "button.foreground":            "#FFFFFF",
+  "button.hoverBackground":       "#6F80D2",
+  "input.background":             "#2A2750",
+  "input.foreground":             "#E0D8FA",
+  "dropdown.background":          "#2A2750",
+  "dropdown.foreground":          "#E0D8FA",
+
+  // ─── Scrollbars ───
+  "scrollbarSlider.background":       "#885C86",
+  "scrollbarSlider.hoverBackground":  "#A47128",
+  "scrollbarSlider.activeBackground": "#FFC658",
+
+  // ─── Links & Badges ───
+  "textLink.foreground":          "#5c6eb1",
+  "badge.background":             "#7289DA",
+  "badge.foreground":             "#F3E3FF",
+
+  // ─── Notifications (toast) ───
+  "notificationCenterHeader.background": "#3F395D",
+  "notifications.background":            "#3F395D",
+  "notifications.foreground":            "#D8C7F4",
+  "notificationsErrorIcon.foreground":   "#d25050",
+  "notificationsInfoIcon.foreground":    "#7289DA",
+  "notificationsWarningIcon.foreground": "#FFC658",
+
+  // ─── Diff/Git (soft tints) ───
+  "diffEditor.insertedLineBackground": "#3a62f51A",
+  "diffEditor.removedLineBackground":  "#d250501A",
+  "gitDecoration.addedResourceForeground":    "#3a62f5",
+  "gitDecoration.modifiedResourceForeground": "#7959AD",
+  "gitDecoration.deletedResourceForeground":  "#d25050",
+
+  // ─── Sidebar section headers (like OUTLINE / TIMELINE) ───
+  "sideBarSectionHeader.background": "#17142A",   // match sidebar bg or darker
+  "sideBarSectionHeader.foreground": "#F3E3FF",   // your light lavender text
+  "sideBarSectionHeader.border": "#5D5193",      // optional thin divider line
+  // ─── Terminal (can match panel) ───
+  "terminal.background":        "#151423",
+  "terminal.foreground":        "#F5E7FF", // Terminal text
+  "terminal.ansiBlack":         "#000000",
+  "terminal.ansiRed":           "#d25050",
+  "terminal.ansiGreen":         "#c4efd9",
+  "terminal.ansiYellow":        "#E7DBF0",
+  "terminal.ansiBlue":          "#5c6eb1",
+  "terminal.ansiMagenta":       "#7959AD",
+  "terminal.ansiCyan":          "#A788D9",
+  "terminal.ansiWhite":         "#D8C7F4",
+  "terminal.ansiBrightBlack":   "#473D59",
+  "terminal.ansiBrightRed":     "#d25050",
+  "terminal.ansiBrightGreen":   "#c4efd9",
+  "terminal.ansiBrightYellow":  "#E7DBF0",
+  "terminal.ansiBrightBlue":    "#7289DA",
+  "terminal.ansiBrightMagenta": "#6866b9",
+  "terminal.ansiBrightCyan":    "#A788D9",
+  "terminal.ansiBrightWhite":   "#FFFFFF",
+  // ---- CODE COLOR TWEAKS ---- 
+  "editor.semanticHighlighting.enabled": false, 
+  "editor.inlayHints.enabled": "off",
+  // ──────────────────────────────────────────────────────────────
+  // BRACKETS (colors + guides)
+  // ──────────────────────────────────────────────────────────────
+  "editor.bracketPairColorization.enabled": true,   // colorize (), [], {} by nesting level
+  "editor.guides.bracketPairs": "active",           // vertical guides for the active pair
+  // Bracket colors by level (1..6). Pick a cohesive set (e.g., Nord-ish blues).
+  "editorBracketHighlight.foreground1": "#5E81AC", // level 1
+  "editorBracketHighlight.foreground2": "#81A1C1", // level 2
+  "editorBracketHighlight.foreground3": "#88C0D0", // level 3
+  "editorBracketHighlight.foreground4": "#8FBCBB", // level 4
+  "editorBracketHighlight.foreground5": "#5E81AC", // level 5
+  "editorBracketHighlight.foreground6": "#81A1C1", // level 6
+    // Unexpected/mismatched bracket
+  "editorBracketHighlight.unexpectedBracket.foreground": "#d25050",
+
+  // Highlight the currently matched pair
+  "editorBracketMatch.background": "#81A1C122",
+  "editorBracketMatch.border": "#81A1C1",
+
+  // Vertical bracket pair guides (background = inactive levels; activeBackground = current scope)
+  "editorBracketPairGuide.background1": "#52698a44",
+  "editorBracketPairGuide.background2": "#5e81ac33",
+  "editorBracketPairGuide.background3": "#88c0d022",
+  "editorBracketPairGuide.background4": "#8fbcbb22",
+  "editorBracketPairGuide.background5": "#52698a22",
+  "editorBracketPairGuide.background6": "#5e81ac22",
+
+  "editorBracketPairGuide.activeBackground1": "#52698aAA",
+  "editorBracketPairGuide.activeBackground2": "#5e81acAA",
+  "editorBracketPairGuide.activeBackground3": "#88c0d0AA",
+  "editorBracketPairGuide.activeBackground4": "#8fbcbbAA",
+  "editorBracketPairGuide.activeBackground5": "#52698aAA",
+  "editorBracketPairGuide.activeBackground6": "#5e81acAA"
+},
+
+  // ──────────────────────────────────────────────────────────────
+  "editor.tokenColorCustomizations": {
+  "textMateRules": [
+    // ── BASE TEXT ─────────────────────────────────────────────
+    { "scope": ["source","meta","punctuation"], "settings": { "foreground": "#F3E3FF" } },
+
+    // Python control flow keywords (for, while, if, else, try, except)
+    { "scope": ["keyword.control","keyword.control.flow","keyword.control.import.python"], "settings": { "foreground": "#F29067" } },
+
+    // General keywords/storage types (class, def, import, export etc.)
+    { "scope": ["keyword","storage.type","storage.modifier","storage.control"], "settings": { "foreground": "#EBD493" } },
+
+
+    // Variables & props (keep close to base)
+    { "scope": ["variable","meta.object-literal.key","support.variable.property"], "settings": { "foreground": "#F5E7FF" } },
+
+    // CONST / READONLY identifiers (stop being blue)
+    { "scope": ["variable.other.constant","variable.other.readonly","variable.constant","meta.definition.variable constant"], "settings": { "foreground": "#E86F6E" } },
+
+    // Parameters (slightly lighter than base)
+    { "scope": ["variable.parameter","meta.parameter"], "settings": { "foreground": "#F7F3FF" } },
+
+    // 'this' / 'self'
+    { "scope": ["variable.language.this","variable.language.self"], "settings": { "foreground": "#EDE8FF", "fontStyle": "italic" } },
+
+    // ── COMMENTS ──────────────────────────────────────────────
+    // keep as pale lavender; change if you preferred the green earlier
+    { "scope": ["comment","comment.block.documentation"], "settings": { "foreground": "#C7E27E"} },
+
+    // ── KEYWORDS / STORAGE / CONTROL ──────────────────────────
+    { "scope": ["keyword","storage.type","storage.modifier","storage.control"], "settings": { "foreground": "#EBD493" } },
+
+    // OPERATORS & SEPARATORS (+=, =, : , etc.) — brighter for contrast
+    { "scope": ["keyword.operator","punctuation.separator","punctuation.separator.key-value","punctuation.separator.parameter","punctuation.accessor"], "settings": { "foreground": "#F2E2DF" } },
+
+    // ── FUNCTIONS / METHODS / CALLS ───────────────────────────
+    { "scope": ["entity.name.function","support.function","meta.function-call","variable.function"], "settings": { "foreground": "#93B4DD" } },
+
+    // ── TYPES / CLASSES / INTERFACES ──────────────────────────
+    { "scope": ["entity.name.type","entity.name.class","support.type","storage.type.class","entity.other.inherited-class"], "settings": { "foreground": "#7FA2CD" } },
+
+    // ── STRINGS / ESCAPES ─────────────────────────────────────
+    { "scope": ["string","string.quoted","string.template"], "settings": { "foreground": "#C4EFD9" } },
+    { "scope": ["constant.character.escape"], "settings": { "foreground": "#A1E8C8" } },
+
+    // ── NUMBERS / CONSTANTS / BOOLEANS ────────────────────────
+    { "scope": ["constant.numeric"], "settings": { "foreground": "#EBD493" } },              // sand: higher contrast than the old magenta
+    { "scope": ["constant.language","support.constant","constant.other"], "settings": { "foreground": "#EBD493" } }, // literals like null/NaN if you want them same as numbers
+    { "scope": ["constant.language.boolean","constant.boolean"], "settings": { "foreground": "#EBD493" } },
+
+    // ── JSX/HTML TAGS & ATTRS ─────────────────────────────────
+    { "scope": ["entity.name.tag","meta.tag","support.class.component.js","support.class.component.tsx"], "settings": { "foreground": "#88C0D0" } },
+    { "scope": ["entity.other.attribute-name","meta.tag.attribute","support.attribute"], "settings": { "foreground": "#F3E3FF" } },
+    { "scope": ["punctuation.definition.tag"], "settings": { "foreground": "#F2E2DF" } },
+
+    // ── CSS/SCSS quick defaults ───────────────────────────────
+    { "scope": ["source.css meta.property-name","support.type.property-name.css"], "settings": { "foreground": "#F3E3FF" } },
+    { "scope": ["source.css meta.property-value","support.constant.property-value.css"], "settings": { "foreground": "#C4EFD9" } },
+
+    // ── JSON / YAML KEYS ──────────────────────────────────────
+    { "scope": ["support.type.property-name.json","string.key.json","entity.name.tag.yaml"], "settings": { "foreground": "#F5E7FF" } },
+
+    // ── REGEX ─────────────────────────────────────────────────
+    { "scope": ["string.regexp"], "settings": { "foreground": "#F3E3FF" } },
+    { "scope": ["string.regexp keyword.other"], "settings": { "foreground": "#746BAE" } },
+    { "scope": ["string.regexp constant.character.escape"], "settings": { "foreground": "#A1E8C8" } },
+
+    // ── DIAGNOSTICS / INVALID ─────────────────────────────────
+    { "scope": ["invalid","invalid.deprecated"], "settings": { "foreground": "#d25050" } }
+  ]
+
+}
+}
