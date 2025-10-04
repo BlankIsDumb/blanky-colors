@@ -1,0 +1,78 @@
+:root {
+  /* --- User variables --- */
+
+  /* Jumping GIF */
+  --jumping-gif: url("https://cdn.discordapp.com/attachments/866006087999684660/1019988119317123152/Untitled-1.png");
+
+  /* Background (if you want an image replace it by : 
+
+--background-tertiary-alt: url("image-link"); without that => */
+  --background-tertiary-alt: url("C:\Users\blank\Downloads\UM.jpg");
+
+  /* Border-radius for the whole theme */
+  --border-radius: 30px;
+}
+
+.theme-dark {
+  /* Text */
+  --text-normal: #D8C7F4;
+  --header-primary: #D8C7F4;
+  --interactive-normal: #D8C7F4;
+  --channels-default: #D8C7F4;
+
+  --text-muted: #D8C7F4;
+  --interactive-muted: #D8C7F4;
+
+  --header-secondary: #D8C7F4;
+  --interactive-hover: #D8C7F4;
+  --interactive-active: #D8C7F4;
+
+
+  /* Background color */
+  --background-primary: #282747;
+  --background-secondary: #3F395D;
+  --background-secondary-alt: #282747;
+  --background-tertiary: #514881;
+  --background-floating: #3F395D;
+  --background-accent: #5D5193;
+  --channeltextarea-background: var(--background-secondary);
+  --modal-background: var(--background-primary);
+  --background-modifier-hover: #3F375C;
+  --background-modifier-active: #3F375C;
+  --background-modifier-selected: #3F375C;
+  --toast-background: #5e3640 !important;
+  --toast-header: #3b1d24 !important;
+  --toast-contents: #49292f !important;
+  --toast-border: #49292f !important;
+  --input-background: var(--background-secondary);
+
+  /* Scrollbar */
+  --scrollbar-auto-thumb: var(--background-tertiary);
+  --scrollbar-auto-track: var(--background-secondary-alt);
+  --scrollbar-thin-thumb: var(--background-tertiary);
+  --scrollbar-thin-track: transparent;
+
+  /* Other */
+  --channel-text-area-placeholder: var(--interactive-normal);
+  --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+.colorBrand-3cPPsm {
+  color: #282747;
+}
+.colorDefault-CDqZdO.focused-3qFvc8,
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+  background-color: var(--background-modifier-hover) !important;
+}
+
+/* Buttons */
+.lookFilled-1H2Jvj {
+  background-color: #282747 !important;
+}
+.lookFilled-1H2Jvj:active,
+.lookFilled-1H2Jvj:hover {
+  background-color: #282747 !important;
+}
+.lookOutlined-3yKVGo:not(.colorWhite-1H92hK) {
+  color: #282747;
+  border-color: #282747;
+}
